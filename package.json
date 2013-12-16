@@ -1,0 +1,19 @@
+{
+    "name"      : "yBot",
+    "description": "johnny-five and leap motion code to control a simple robot an tweet info from sensors",
+    "version"   : "0.1.0",
+    "author": {
+    	"name": "Adrian Catalan <adriancatalan@elementalgeeks.com>",
+    	"email": "adriancatalan@elementalgeeks.com"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git://github.com/ykro/robotsconf13-openhack.git"
+    },    
+    "dependencies" : {
+        "johnny-five" : "git://github.com/rwaldron/johnny-five.git",
+        "leapjs" : "0.3.0-beta1",
+        "twit" : "1.1.11",
+        "ws" : "0.4.31"
+    }
+}
